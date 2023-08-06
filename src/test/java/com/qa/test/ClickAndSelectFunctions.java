@@ -42,6 +42,7 @@ WebElement speed;
     public static void tearDown() throws InterruptedException {
         Thread.sleep(2000);
         driver.close();
+        System.out.println("END");
     }
 
     @Test()
