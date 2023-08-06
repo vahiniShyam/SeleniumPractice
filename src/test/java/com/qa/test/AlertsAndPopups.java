@@ -92,5 +92,6 @@ public class AlertsAndPopups {
         alert4.accept();
 
         System.out.println(driver.findElement(By.id("promptResult")).getText());
+        System.out.println("END");
     }
 }
